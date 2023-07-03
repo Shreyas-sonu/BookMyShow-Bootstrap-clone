@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Tickets, Play, Sports, Events & Cinemas near Banglore</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="favicon" href="./asset/favicon.icn">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../../bootstrap-5.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg" id="header">
+            <div class="container-fluid col-form-label-lg">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#" style="color: inherit;position: relative;top: -50px;"><img src="./asset/logo.png" alt="" height="60px" width="140px" style="position:relative; bottom:-50px;"></a>
+                <form class="d-flex" role="search" style="position:relative;">
+                  <i class="fa-solid fa-magnifying-glass" style="position:relative;left: 25px;top: 10px; color: #2b3148;"></i><input class="form-control me-2" type="search" style="padding: 20px;padding-left: 30px; " placeholder="Search" aria-label="Search" size="60">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                  <div style="padding:0 10%;">
+                  </div>
+                  <div class="d-flex">
+                    <div class="dropdown me-1">
+                      <span type="button" class="btn btn-secondary dropdown-toggle" style="background-color: inherit;border:none;" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                        Banglore
+                      </span>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Mysore</a></li>
+                        <li><a class="dropdown-item" href="#">Mandya</a></li>
+                        <li><a class="dropdown-item" href="#">Manglore</a></li>
+                      </ul>
+                    </div>
+                    <a href="./login.html"><button type="button" class="btn btn-danger">Sign in</button></a>&nbsp;&nbsp;
+                </div>
+                <span style="padding-left:1%;"><img src="./asset/navtoggle.png" alt="" heigth="20px" width="25px"></span>
+              </div>
+            </div>
+          </nav> 
+          <nav class="navbar navbar-expand-lg bg-dark text-white" style="padding-left:4%;color:white;background-color:#2b3148;position: relative;">
+            <div class="container-fluid text-white">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active text-white" aria-current="page" href="#">Movies</a>
+                  <a class="nav-link text-white" href="#">Stream<sup style="color:red;position: absolute;top: 25%;left: 13.5%;font-size: 10px;">New</sup></a>
+                  <a class="nav-link text-white" href="#">Event</a>
+                  <a class="nav-link active text-white" aria-current="page" href="#">Sports</a>
+                  <a class="nav-link text-white" href="#">Activities</a>
+                  <a class="nav-link text-white" href="#">Buzz</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true" style="width: 99%; margin:1% auto 1% ;border-radius:10px; overflow: hidden;" >
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./asset/slid1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./asset/slid2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./asset/slid3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <section>
+          <h2 style="padding:2% 0 0.5% 4%;">Recommended Movies</h2>
+          <div class="card-group">&nbsp;&nbsp;&nbsp;
+            <div class="card" style="height:50vh;border: none; padding-left:20px;">
+              <img src="./asset/fl1.png" class="card-img-top" style="border-radius: 20px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Brahmastra</h5>
+                <p class="card-text">ADVENTURE/FANTASY</p>
+                <p class="card-text"><small class="text-muted">Hindi,Kannada,Tamil,Telugu.</small></p>
+              </div>
+            </div>&nbsp;&nbsp;&nbsp;
+            <div class="card" style="height:50vh;border: none; padding-left:10px;">
+              <img src="./asset/fl2.png" class="card-img-top" style="border-radius: 20px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lucky Man</h5>
+                <p class="card-text">COMEDY/ROMANCE</p>
+                <p class="card-text"><small class="text-muted">Kannada</small></p>
+              </div>
+            </div>&nbsp;&nbsp;&nbsp;
+            <div class="card" style="height:50vh;border: none; padding-left:10px;">
+              <img src="./asset/fl3.png" class="card-img-top" style="border-radius: 20px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Captain</h5>
+                <p class="card-text">ACTION/ADVENTURE</p>
+                <p class="card-text"><small class="text-muted">Tamil,Telugu</small></p>
+              </div>
+            </div>&nbsp;&nbsp;&nbsp;
+            <div class="card" style="height:50vh;border: none; padding-left:10px;">
+                <img src="./asset/fl4.png" class="card-img-top" style="border-radius: 20px;" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Oke Oka Jeevitham</h5>
+                  <p class="card-text">SCI-FI/DRAMA/FANTASY</p>
+                  <p class="card-text"><small class="text-muted">Telugu</small></p>
+                </div>
+              </div>&nbsp;&nbsp;&nbsp;
+              <div class="card" style="height:50vh;border: none; padding-left:10px;">
+                <img src="./asset/fl5.png" class="card-img-top" style="border-radius: 20px;" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Neev Poth</h5>
+                  <p class="card-text">ACTION/ROMANCE</p>
+                  <p class="card-text"><small class="text-muted">Tamil</small></p>
+                </div>
+              </div>
+              <div style="width:100%; margin-top:20%; margin-bottom: 7%; margin-left:auto;">
+                <a href="#"><img src="./asset/lead-in-v3-collection-202102040828.png" alt="" width="95%" style="padding-left:5%;"></a>
+              </div>
+          </div>&nbsp;&nbsp;&nbsp;
+        </section>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <h4 style="padding-left:6%;">The Best of Enternainment</h4>
+            <div class="carousel-item active">
+              <article id="catogories">
+                  <section>
+                      <figure>
+                          <img src="./asset/cat1.png" alt="">
+                      </figure>  
+                    <figure>
+                      <img src="./asset/cat2.png" alt="">
+                    </figure>
+                    <figure>
+                      <img src="./asset/cat3.png" alt="">
+                    </figure>
+                    <figure>
+                      <img src="./asset/cat4.png" alt="">
+                    </figure>
+                    <figure>
+                      <img src="./asset/cat5.png" alt="">
+                   </figure>
+                  </section>
+                  </article> 
+            </div>
+            <div class="carousel-item">
+              <article id="catogories">
+                <section>
+                    <figure>
+                        <img src="./asset/cata1.png" alt="">
+                    </figure>  
+                  <figure>
+                    <img src="./asset/cata2.png" alt="">
+                  </figure>
+                  <figure>
+                    <img src="./asset/cata3.png" alt="">
+                  </figure>
+                  <figure>
+                    <img src="./asset/cata4.png" alt="">
+                  </figure>
+                  <figure>
+                    <img src="./asset/cata5.png" alt="">
+                 </figure>
+                </section>
+                </article> 
+            </div>
+            <div class="carousel-item">
+              <article id="catogories">
+                <section>
+                    <figure>
+                        <img src="./asset/catb1.png" alt="">
+                    </figure>  
+                  <figure>
+                    <img src="./asset/catb2.png" alt="">
+                  </figure>
+                  <figure>
+                    <img src="./asset/catb3.png" alt="">
+                  </figure>
+                  <figure>
+                    <img src="./asset/catb4.png" alt="">
+                  </figure>
+                  <figure>
+                    <img src="./asset/catb5.png" alt="">
+                 </figure>
+                </section>
+                </article> 
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>      
+        <article id="prem">
+            <h3><img src="./asset/prem.png" alt=""></h3>
+          <section>
+            <figure>
+              <img src="./asset/fl1a.png" alt="">
+              <figcaption>Top-Gun Maverick</figcaption>
+              <small>English</small>
+            </figure>
+            <figure>
+              <img src="./asset/fl1b.png" alt="">
+              <figcaption>Orphan First Kill(2022)</figcaption>
+              <small>English</small>
+            </figure>
+            <figure>
+              <img src="./asset/fl1c.png" alt="">
+              <figcaption>Unforgotten: Series 1</figcaption>
+              <small>English</small>
+            </figure>
+            <figure>
+              <img src="./asset/fl1d.png" alt="">
+              <figcaption>Jurassic World: Dominion</figcaption>
+              <small>English</small>
+            </figure>
+            <figure>
+              <img src="./asset/fl1e.png" alt="">
+              <figcaption>Sherood: TV Series</figcaption>
+              <small>English</small>
+            </figure>
+          </section>
+          </article>          
+        <footer style="margin-top:0;box-sizing:border-box;overflow:hidden;"> 
+        <div class="contact_today">
+            <p>
+              <a href="https://support.bookmyshow.com/support/home?regionCode=NCR" class="sc-cJSrbW PaHPQ"><div class="sc-chPdSV bAamUQ"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 102 102" id="icon-callcenter" width="50%"  ><path d="M68.8 29.4c0-10.4-8.4-18.8-18.8-18.8S31.2 19 31.2 29.4 39.6 48.2 50 48.2s18.8-8.4 18.8-18.8zm-35.8 0c0-9.3 7.6-17 17-17 9.3 0 17 7.6 17 17 0 9.3-7.6 17-17 17-9.3 0-17-7.6-17-17z"></path><path d="M24 30.3c.5 0 .9-.4.9-.9C24.9 15.6 36.2 4.3 50 4.3s25.1 11.3 25.1 25.1c0 13.1-10.5 28.3-24.2 29v-3.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v8.6c0 .5.4.9.9.9s.9-.4.9-.9v-2.9c14.7-.7 26-16.8 26-30.8C76.9 14.6 64.8 2.5 50 2.5S23.1 14.6 23.1 29.4c0 .5.4.9.9.9z"></path><path d="M68.1 63c-.6-.2-1.2-.3-1.9-.3-.9 0-2.3.7-4.9 2.1-3.2 1.7-7.7 4-10.6 4-3.2 0-8-2.3-11.5-4-2.8-1.3-4.3-2-5.3-2-.7 0-1.3.1-1.9.3C16.7 68.2 11.2 86 11.2 96.7c0 .5.4.9.9.9H88c.5 0 .9-.4.9-.9 0-10.8-5.6-28.6-20.8-33.7zM13 95.7c.3-12.1 7.2-26.8 19.6-30.9.4-.1.8-.2 1.3-.2.6 0 2.7 1 4.5 1.9 3.9 1.9 8.7 4.2 12.3 4.2 3.3 0 7.8-2.3 11.4-4.2 1.6-.8 3.6-1.9 4.1-1.9s.9.1 1.3.2C79.9 68.9 86.7 83.6 87 95.7H13zm3.6-55.3c.5 0 .9-.4.9-.9V26.3c0-.5-.4-.9-.9-.9s-.9.4-.9.9v13.2c0 .5.4.9.9.9zm66.8 0c.5 0 .9-.4.9-.9V26.3c0-.5-.4-.9-.9-.9s-.9.4-.9.9v13.2c-.1.5.4.9.9.9z">
+              </path></svg></div>
+                <div class="sc-kgoBCf sc-kpOJdX sc-ksYbfQ gfZMkf"></div></a>
+              <a class="sc-cJSrbW PaHPQ" href="https://in.bookmyshow.com/bengaluru/cinemas"><div class="sc-chPdSV bAamUQ"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 102 102" id="icon-resend" width="50%" ><path d="M92.1 69l-5.6-13.9a1 1 0 0 0-1.1-.5c-1.9.8-4.1-.2-4.8-2.1-.4-.9-.4-1.9 0-2.8.4-.9 1.1-1.6 2-2 .2-.1.4-.2.5-.4s.1-.4 0-.6l-5.6-13.9a1 1 0 0 0-1.1-.5L61 38.5l9-20.9c.2-.4 0-.9-.4-1.1L57 11.1c-.4-.2-.9 0-1.1.4a3.3 3.3 0 0 1-4.3 1.8c-.8-.3-1.4-1-1.8-1.8-.3-.8-.3-1.7 0-2.5.1-.2.1-.4 0-.6-.1-.2-.2-.4-.4-.5L36.8 2.6c-.4-.2-.9 0-1.1.4L12.3 58.2l-3.9 1.5c-.2.2-.4.3-.4.5-.1.2-.1.4 0 .6l5.6 13.9c.2.4.7.6 1.1.5 1.9-.7 4.1.2 4.8 2 .4.9.4 1.9 0 2.8s-1.1 1.6-2 2c-.2.1-.4.2-.5.4-.1.2-.1.4 0 .6l5.4 14c.1.2.2.4.4.5.1 0 .2.1.3.1.1 0 .2 0 .3-.1l68.1-27.3c.5-.2.7-.7.6-1.2zM36.9 4.4L48 9.1c-.2 1-.2 2 .2 3 .5 1.2 1.4 2.2 2.7 2.7 2.3 1 4.8.1 6.1-1.9l11.1 4.7-9.3 21.8-4.7 1.9L59 30.2l2.5-5.8c.1-.2.1-.4 0-.6s-.2-.4-.4-.5L38 13.5c-.2-.1-.4-.1-.6 0-.2.1-.4.2-.5.4L19.1 55.5l-4.7 1.9 22.5-53zm-1.4 16.7l.8.3c.1 0 .2.1.3.1.3 0 .6-.2.8-.5.2-.4 0-.9-.4-1.1l-.8-.3 1.8-4.3 21.6 9.2-1.8 4.3-.8-.4c-.4-.2-.9 0-1.1.4-.2.4 0 .9.4 1.1l.8.3-5.1 12-30.7 12.4 14.2-33.5zM23.7 95.6l-5-12.4c1-.6 1.7-1.4 2.2-2.5.6-1.3.6-2.8 0-4.1-.8-2-2.8-3.4-5-3.4-.4 0-.8 0-1.2.1L9.8 61l66.5-26.7 5 12.4c-1 .6-1.7 1.4-2.2 2.5a4.9 4.9 0 0 0 0 4.1c.8 2 2.8 3.4 5 3.4.4 0 .8 0 1.2-.1l5 12.4-66.6 26.6z"></path><path d="M70 42.1c-.1-.2-.2-.4-.4-.5-.2-.1-.4-.1-.6 0L20.2 61.2a1 1 0 0 0-.5 1.1L30 87.8c.1.2.2.4.4.5.1 0 .2.1.3.1.1 0 .2 0 .3-.1l42.3-17 6.4-2.6c.4-.2.6-.7.5-1.1L70 42.1zm3.5 27.3l-.3-.8a1 1 0 0 0-1.1-.5 1 1 0 0 0-.5 1.1l.4.8-34.2 13.7-.3-.7a1 1 0 0 0-1.1-.5 1 1 0 0 0-.5 1.1l.3.8-5.1 2-9.6-23.9 5.1-2 .3.8c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-.3-.8 34.1-13.7.3.8c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-.3-.8 4.9-2 9.6 23.9-4.9 2.1z"></path><path d="M30.6 65.7c-.2-.4-.7-.6-1.1-.5s-.6.7-.5 1.1l1.4 3.4c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-1.4-3.3zm3.5 8.6a1 1 0 0 0-1.1-.5 1 1 0 0 0-.5 1.1l1.4 3.4c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-1.4-3.3zm32.2-22.9a1 1 0 0 0-1.1-.5 1 1 0 0 0-.5 1.1l1.4 3.4c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-1.4-3.3zm1.9 9.3l1.4 3.4c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1L69.7 60a1 1 0 0 0-1.1-.5c-.4.2-.6.7-.4 1.2zm-19.5-34l3.1 1.3c.1 0 .2.1.3.1.3 0 .6-.2.8-.5.2-.4 0-.9-.4-1.1l-3.1-1.3c-.4-.2-.9 0-1.1.4-.3.4-.1.9.4 1.1zm-7.8-3.3l3.1 1.3c.1 0 .2.1.3.1.3 0 .6-.2.8-.5.2-.4 0-.9-.4-1.1l-3.1-1.3c-.4-.2-.9 0-1.1.4-.2.4 0 .9.4 1.1zm13.4 41.4c-.5 0-.8.4-.8.8 0 2.4-2 4.4-4.4 4.4s-4.4-2-4.4-4.4c0-2.3 1.9-4.2 4.2-4.3l-1.6 2.3c-.3.4-.2.9.2 1.2.1.1.3.1.5.1.3 0 .5-.1.7-.4l2.6-3.7c.3-.4.2-.9-.2-1.1L47.5 57c-.4-.3-.9-.2-1.2.2s-.2.9.2 1.2l1.9 1.4c-3 .3-5.4 2.9-5.4 5.9 0 3.3 2.7 6 6 6s6-2.7 6-6c.1-.5-.3-.9-.7-.9z"></path></svg></div><div class="sc-kgoBCf sc-kpOJdX sc-ksYbfQ gfZMkf"></div></a>
+              <a class="sc-cJSrbW PaHPQ" href="mailto:abc@eer"><div class="sc-chPdSV bAamUQ"><svg xmlns="http://www.w3.org/2000/svg" id="icon-newsletter" viewBox="-1 -1 102 102" width="50%" ><g id="elnewsletter"><path class="elst0" d="M97.5 90.3V33.6c0-.5-.4-1-1-1H82.9V9.8c0-.5-.4-1-1-1H18.1a1 1 0 0 0-1 1v22.8H3.5a1 1 0 0 0-1 1v56.9c0 .1.1.1.1.2v.1c0 .1.1.1.2.1.1.1.2.1.2.1.1 0 .1 0 .2.1h93.4c.1 0 .3 0 .4-.1 0 0 .1 0 .1-.1.1-.1.2-.1.2-.2v-.1c0-.1.1-.1.1-.2.1 0 .1 0 .1-.1zm-1.9-55.7v53.6L63.9 64.1l18.6-17.7 7.7-7.4c.3-.3.4-.7.2-1.1-.1-.4-.5-.6-.9-.6h-6.8v-2.7h12.9zM50.2 56.1l43.4 33.1H6.4l43.8-33.1zm32.7-16.8h4.4l-4.4 4.1v-4.1zM19.1 10.8h61.8v34.5L62.4 62.9l-11.6-8.8c-.3-.3-.8-.3-1.2 0L37.8 63 19.1 45.3V10.8zm-2 32.6l-4.4-4.1h4.4v4.1zm0-8.8v2.7h-6.8c-.4 0-.8.2-.9.6-.1.4-.1.8.2 1.1l26.5 25.2-31.8 24V34.6h12.8z"></path><path class="elst0" d="M28.9 22.5h42.7a1 1 0 0 0 0-2H28.9c-.5 0-1 .4-1 1s.4 1 1 1zm0 10h42.7a1 1 0 0 0 0-2H28.9a1 1 0 0 0 0 2zm0 9.9h42.7a1 1 0 0 0 0-2H28.9c-.5 0-1 .4-1 1s.4 1 1 1z">
+            </path></g></svg></div><div class="sc-kgoBCf sc-kpOJdX sc-ksYbfQ gfZMkf"></div></a>
+            </p>
+        </div>
+        <div class="footer-basic">
+            <footer>
+                <div class="social"><a href="https://www.instagram.com/?hl=en"><i class="icon ion-social-instagram" title="Instagram"></i></a><a href="https://www.snapchat.com/"><i class="icon ion-social-snapchat" title="Snapchat"></i></a><a href="https://twitter.com/login"><i class="icon ion-social-twitter" title="Twitter"></i></a><a href="https://www.facebook.com/"><i class="icon ion-social-facebook" title="facebook"></i></a></div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" id="footer-menu">Home</a></li>
+                    <li class="list-inline-item"><a href="#" id="footer-menu">Services</a></li>
+                    <li class="list-inline-item"><a href="#" id="footer-menu">About</a></li>
+                    <li class="list-inline-item"><a href="#" id="footer-menu">Terms</a></li>
+                    <li class="list-inline-item"><a href="#" id="footer-menu">Privacy Policy</a></li>
+                </ul>
+                <p class="copyright">Company Name © 2018</p>
+            </footer>
+        </footer>    
+        </div>
+        <script src="../../../bootstrap-5.2.1-dist/js/bootstrap.min.js,../../bootstrap.bundle.min.js">
+            const dropdownElementList = document.querySelectorAll('.dropdown-toggle')
+            const dropdownList = [...dropdownElementList].map(dropdownToggleEl => new bootstrap.Dropdown(dropdownToggleEl))
+        </script>         
+</body>
+</html>
